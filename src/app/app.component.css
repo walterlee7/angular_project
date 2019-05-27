@@ -1,6 +1,20 @@
-body{
-    background-color: rgb(245, 79, 79);
+body {
+    background-color: rgb(247, 53, 53);
     height: 100%;
     margin: 0;
     padding: 0.5em;
+}
+
+#logo {
+    animation: logo-spin infinite 35s linear;
+    height: 40vmin;
+}
+
+@keyframes logo-spin {
+from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
 }
