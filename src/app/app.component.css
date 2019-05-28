@@ -6,7 +6,7 @@ body {
 }
 
 #logo {
-    animation: logo-spin infinite 35s linear;
+    animation: logo-spin infinite 5s linear;
     height: 40vmin;
 }
 
@@ -16,5 +16,33 @@ from {
 }
 to {
     transform: rotate(360deg);
+}
+}
+
+#logo2 {
+    animation: logo-spin-2 infinite 25s linear;
+    height: 40vmin;
+}
+
+@keyframes logo-spin-2 {
+from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
+}
+
+#logo3 {
+    animation: logo-spin-3 infinite 45s linear;
+    height: 40vmin;
+}
+
+@keyframes logo-spin-3 {
+from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(-360deg);
 }
 }
