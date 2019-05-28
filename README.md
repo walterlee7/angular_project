@@ -5,9 +5,10 @@ This is a starter project in Angular.
 To deploy to GitHub Pages:
 
 1.  Create a copy of index.html called 404.html
-2.	npm i angular-cli-ghpages --save-dev
-3.	ng build --prod --base-href https://ACCOUNT.github.io/PROJECTNAME/
-4.	npx angular-cli-ghpages
+2.  npm i angular-cli-ghpages --save-dev
+3.	in angular.json, set this: "outputPath": "dist/",
+4.	ng build --prod --base-href https://ACCOUNT.github.io/PROJECTNAME/
+5.	npx angular-cli-ghpages
 
 # MyApp
 
