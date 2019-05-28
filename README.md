@@ -2,6 +2,13 @@
 
 This is a starter project in Angular.
 
+To deploy to GitHub Pages:
+
+1.  Create a copy of index.html called 404.html
+2.	npm i angular-cli-ghpages --save-dev
+3.	ng build --prod --base-href https://ACCOUNT.github.io/PROJECTNAME/
+4.	npx angular-cli-ghpages
+
 # MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
